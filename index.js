@@ -4,5 +4,7 @@ function boardMember(name, state, degree) {
   this.name = name;
   this.state = state;
   this.degree = degree;
-  this.veto = function()
+  this.veto = function() {
+    return "No, I must disagree"
+  }
 }
