@@ -1,5 +1,5 @@
 
 
-function boardMember() {
+function boardMember(name, state, degree) {
 
 }
